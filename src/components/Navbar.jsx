@@ -13,16 +13,16 @@ const Navbar = () => {
         <Link activeStyle={{ color: "#546DE5" }} to="/about">
           About
         </Link>
-        <a href="/">Resume</a>
+        <a rel="noreferrer" target="_blank" href="/">Resume</a>
       </nav>
       <div>
-        <a href="https://github.com/mathiasjor911">
+        <a rel="noreferrer" target="_blank" href="https://github.com/mathiasjor911">
           <GitHub strokeWidth="1.5" size="20" />
         </a>
-        <a href="https://www.instagram.com/mathias.jor/">
+        <a rel="noreferrer" target="_blank" href="https://www.instagram.com/mathias.jor/">
           <Instagram strokeWidth="1.5" size="20" />
         </a>
-        <a href="https://www.linkedin.com/in/mathias-j%C3%B8rgensen-595876152/">
+        <a rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/mathias-j%C3%B8rgensen-595876152/">
           <Linkedin strokeWidth="1.5" size="20" />
         </a>
       </div>

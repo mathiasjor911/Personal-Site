@@ -40,4 +40,19 @@ span {
 .wrapper {
     max-width: 1076px;
     margin: 0 auto;
+
+    @media only screen and (max-width: 1076px) {
+        padding: 0 2em;
+    }
+}
+
+.projects {
+    padding: 96px 0;
+
+    .projects-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        column-gap: 88px;
+
+    }
 }
