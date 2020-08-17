@@ -1,0 +1,39 @@
+@import "../styles/colors";
+
+.aboutgrid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 88px;
+    margin-bottom: 160px;
+
+    .about-content {
+
+        h1 {
+            margin-bottom: 0;
+        }
+
+        p {
+            max-width: 620px;
+        }
+
+        .interrests {
+            h3 {
+                font-size: 18px;
+                margin-top: 48px;
+                margin-bottom: 8px;
+            }
+
+            p {
+                margin-top: 0px;
+            }
+        }
+
+        .educations {
+            margin-top: 56px;
+        }
+    }
+
+    .spotify-data {
+        grid-column: 2;
+    }
+}

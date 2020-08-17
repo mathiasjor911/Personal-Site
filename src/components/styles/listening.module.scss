@@ -1,0 +1,16 @@
+@import '../../styles/_colors.scss';
+
+.artistobject {
+    display: grid;
+    grid-template-columns: 52px auto;
+    column-gap: 16px;
+    align-items: center;
+    margin: 24px 0;
+    max-width: fit-content;
+
+    a {
+        font-size: 18px;
+        text-decoration: none;
+        color: $dark-grey;
+    }
+}

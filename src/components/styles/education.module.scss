@@ -1,0 +1,23 @@
+@import "../../styles/_colors.scss";
+
+.education {
+    display: grid;
+    grid-template-columns: 0.8fr 3fr;
+    align-items: flex-start;
+    margin: 24px 0;
+
+    .title {
+        font-size: 18px;
+        margin: 0;
+        font-weight: 500;
+    }
+
+    .time {
+        margin-right: 40px;
+        color: $smoke-grey;
+    }
+
+    .place {
+        color: $smoke-grey;
+    }
+}

@@ -6,8 +6,14 @@
 
     h1,
     h2 {
-        color: $dark-grey;
         line-height: 1.15;
         font-weight: 400;
+    }
+}
+
+.projects {
+    h2 {
+        font-weight: 500;
+        font-size: 22px;
     }
 }

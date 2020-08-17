@@ -1,6 +1,5 @@
 import React from "react"
 import Layout from "../components/Layout"
-
 import "../styles/index.scss"
 import Project from "../components/Project"
 
@@ -14,6 +13,7 @@ export default function Home() {
             👋
           </span>
         </h1>
+
         <h2>
           Currently studying Web Development at{" "}
           <a href="https://kea.dk" style={{ color: "#EA5045" }}>
