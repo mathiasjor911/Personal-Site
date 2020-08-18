@@ -3,7 +3,7 @@
 .aboutgrid {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    column-gap: 88px;
+    column-gap: 96px;
     margin-bottom: 160px;
 
     .about-content {
@@ -28,12 +28,33 @@
             }
         }
 
+        .skill-section {
+            h3 {
+                margin-top: 48px;
+                margin-bottom: 8px;
+            }
+
+            .skills {
+                display: grid;
+                gap: 16px 16px;
+                grid-template-columns: repeat(3, 160px);
+
+                p {
+                    margin: 0;
+                    font-weight: 500;
+                }
+
+                span {
+                    color: $smoke-grey;
+                }
+            }
+        }
+
         .educations {
-            margin-top: 56px;
+            margin: 56px 0;
+
         }
     }
 
-    .spotify-data {
-        grid-column: 2;
-    }
+
 }

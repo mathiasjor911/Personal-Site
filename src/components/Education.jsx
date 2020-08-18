@@ -19,9 +19,6 @@ export default function Education() {
       place: "EUC Sjælland, Næstved",
     },
   ]
-
-  console.log("data", data)
-
   return (
     <div className="educations">
       <h3>Education</h3>

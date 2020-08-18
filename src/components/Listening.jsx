@@ -2,6 +2,7 @@ import React from "react"
 import Image from "gatsby-image"
 import { useStaticQuery, graphql } from "gatsby"
 import style from "./styles/listening.module.scss"
+
 export default function Listening() {
   const data = useStaticQuery(graphql`
     query {
