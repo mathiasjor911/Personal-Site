@@ -14,7 +14,7 @@ const Navbar = () => {
         <Link activeStyle={{ color: "#546DE5" }} to="/about">
           About
         </Link>
-        <a rel="noreferrer" target="_blank" href="/">
+        <a rel="noreferrer" target="_blank" href="https://drive.google.com/file/d/1hiWLbG5dF0qNorUG9NSe9A5zjdxKi6ca/view?usp=sharing">
           Resume
         </a>
       </nav>

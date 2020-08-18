@@ -13,6 +13,13 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
+        name: `projects`,
+        path: `${__dirname}/src/images/projects`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
         name: `images`,
         path: `${__dirname}/src/images`,
       },
@@ -20,12 +27,10 @@ module.exports = {
     {
       resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {
-        fonts: [
-          {
-            family: `Mukta`,
-            variants: [`300`, `400`, `500`, `600`],
-          },
-        ],
+        fonts: [{
+          family: `Mukta`,
+          variants: [`300`, `400`, `500`, `600`],
+        }, ],
       },
     },
     {

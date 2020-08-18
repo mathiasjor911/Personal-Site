@@ -38,10 +38,12 @@ export default function Listening() {
       <h3>Currently listening to</h3>
       {spotify.edges.map((item, i) => (
         <div className={style.artistobject} key={i} data={item}>
-          <Image
-            alt={"Image of " + item.node.name}
-            fluid={item.node.image.localFile.childImageSharp.fluid}
-          />
+          <div className={style.artistimage}>
+            <Image
+              alt={"Image of " + item.node.name}
+              fluid={item.node.image.localFile.childImageSharp.fluid}
+            />
+          </div>
           <a href={item.node.external_urls.spotify}>{item.node.name}</a>
         </div>
       ))}

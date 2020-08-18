@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../components/Layout"
 import "../styles/index.scss"
-import Project from "../components/Project"
+import Project from "../components/Projects"
 
 export default function Home() {
   return (
@@ -32,24 +32,7 @@ export default function Home() {
       <section className="projects">
         <h2>Selected Work</h2>
         <div className="projects-container">
-          <Project
-            img="https://picsum.photos/300/200"
-            title="Lorem ipsum"
-            type="School Project"
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed ligula ac mauris sollicitudin condimentum"
-          />
-          <Project
-            img="https://picsum.photos/300/200"
-            title="Lorem ipsum"
-            type="School Project"
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed ligula ac mauris sollicitudin condimentum"
-          />
-          <Project
-            img="https://picsum.photos/300/200"
-            title="Lorem ipsum"
-            type="School Project"
-            text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc sed ligula ac mauris sollicitudin condimentum"
-          />
+          <Project />
         </div>
       </section>
     </Layout>
