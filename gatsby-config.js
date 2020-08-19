@@ -6,17 +6,16 @@
 
 module.exports = {
   /* Your site config here */
+  siteMetadata: {
+    title: `Mathias Jørgensen`,
+    description: `Personal site belonging to Mathias Jørgensen, who is studying a Bachelor in Web Development.`,
+    author: `Mathias Jørgensen`,
+  },
   plugins: [
     `gatsby-plugin-sass`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `projects`,
-        path: `${__dirname}/src/images/projects`,
-      },
-    },
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -27,10 +26,12 @@ module.exports = {
     {
       resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {
-        fonts: [{
-          family: `Mukta`,
-          variants: [`300`, `400`, `500`, `600`],
-        }, ],
+        fonts: [
+          {
+            family: `Mukta`,
+            variants: [`300`, `400`, `500`, `600`],
+          },
+        ],
       },
     },
     {

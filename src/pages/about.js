@@ -4,10 +4,12 @@ import "../styles/about.scss"
 import Education from "../components/Education"
 import Sidebar from "../components/Sidebar"
 import moment from "moment"
+import Seo from "../components/Seo"
 
 export default function About() {
   return (
     <Layout>
+      <Seo title="About" />
       <div className="aboutgrid">
         <div className="about-content">
           <h1>About</h1>

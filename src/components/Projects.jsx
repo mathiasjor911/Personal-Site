@@ -11,6 +11,7 @@ export default function Projects() {
       description:
         "Website for a fictional web agency as part of a school project. The site was created with HTML, CSS and jQuery",
       image: "massweb.jpg",
+      link: "https://mmd.mathiasjorgensen.dk/opgave-5/",
     },
     {
       title: "JMM Group",
@@ -18,6 +19,7 @@ export default function Projects() {
       description:
         "Wordpress website for a nation-wide construction-machinery dealer, with a WooCommerce powered spare-parts shop.",
       image: "johs.jpg",
+      link: "https://jmm-group.com",
     },
     {
       title: "Personal Portfolio",
@@ -25,12 +27,13 @@ export default function Projects() {
       description:
         "Personal portfolio site I made with PHP, HTML, CSS and JavaScript. The site has been replaced by the current one.",
       image: "portfolio.jpg",
+      link: "https://mathiasjorgensen.dk",
     },
   ]
 
   const data = useStaticQuery(graphql`
     query Projects {
-      allFile(filter: { sourceInstanceName: { eq: "projects" } }) {
+      allFile {
         edges {
           node {
             relativePath
@@ -44,7 +47,7 @@ export default function Projects() {
       }
     }
   `)
-  return projects.map(({ title, type, description, image }) => {
+  return projects.map(({ title, type, description, image, link }) => {
     const img = data.allFile.edges.find(
       ({ node }) => node.relativePath === image
     ).node
@@ -52,12 +55,14 @@ export default function Projects() {
     return (
       <div className={style.project}>
         <div className={style.projectimg}>
-          <Image fluid={img.childImageSharp.fluid} alt={title} />
+          <a href={link}>
+            <Image fluid={img.childImageSharp.fluid} alt={title} />
+          </a>
         </div>
         <h3>{title}</h3>
         <span>{type}</span>
         <p>{description}</p>
-        <a></a>
+        <a href={link}>View project</a>
       </div>
     )
   })
