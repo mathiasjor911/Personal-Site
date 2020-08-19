@@ -6,6 +6,15 @@
     align-items: flex-start;
     margin: 24px 0;
 
+    @media screen and(max-width: 768px) {
+        display: flex;
+        flex-direction: column;
+
+        .place {
+            font-size: 14px;
+        }
+    }
+
     .title {
         font-size: 18px;
         margin: 0;
@@ -15,10 +24,6 @@
     .time {
         color: $smoke-grey;
 
-        @media screen and(max-width: 768px) {
-            font-size: 14px;
-            margin-top: 4px;
-        }
     }
 
     .place {
