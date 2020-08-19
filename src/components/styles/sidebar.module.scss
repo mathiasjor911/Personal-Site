@@ -1,7 +1,15 @@
 @import "../../styles/_colors.scss";
 
 .sidebar {
-    margin-top: 24px;
+
+    @media screen and(max-width: 768px) {
+        grid-row-start: 1;
+
+        .pb {
+            max-width: 240px;
+            margin: 0 auto;
+        }
+    }
 
     .pb {
         margin-bottom: 24px;

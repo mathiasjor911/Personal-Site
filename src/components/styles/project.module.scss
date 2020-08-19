@@ -4,6 +4,10 @@
   display: flex;
   flex-direction: column;
 
+  @media screen and (max-width: 768px) {
+    margin-bottom: 48px;
+  }
+
   .projectimg {
     overflow: hidden;
     border-radius: 6px;

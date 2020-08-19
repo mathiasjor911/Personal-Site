@@ -6,6 +6,19 @@
     column-gap: 96px;
     margin-bottom: 160px;
 
+    @media screen and(max-width: 768px) {
+        grid-template-columns: 1fr;
+
+        .spotify-data {
+            display: none;
+        }
+
+        .about-content {
+            padding: 0 1em;
+        }
+
+    }
+
     .about-content {
 
         h1 {

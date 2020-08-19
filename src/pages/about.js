@@ -10,9 +10,9 @@ export default function About() {
   return (
     <Layout>
       <Seo title="About" />
+      <h1>About</h1>
       <div className="aboutgrid">
         <div className="about-content">
-          <h1>About</h1>
           <p>
             My name is Mathias Jørgensen, I’m currently{" "}
             {moment().diff("11-Sep-1998", "years")} years old.

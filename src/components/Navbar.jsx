@@ -21,7 +21,7 @@ export default function Navbar() {
           Resume
         </a>
       </nav>
-      <div>
+      <div className={style.icons}>
         <a
           rel="noreferrer"
           target="_blank"
