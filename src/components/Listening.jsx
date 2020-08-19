@@ -21,7 +21,7 @@ export default function Listening() {
               localFile {
                 childImageSharp {
                   fluid(maxWidth: 400) {
-                    ...GatsbyImageSharpFluid
+                    ...GatsbyImageSharpFluid_withWebp
                   }
                 }
               }

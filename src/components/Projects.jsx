@@ -27,7 +27,7 @@ export default function Projects() {
       description:
         "Personal portfolio site I made with PHP, HTML, CSS and JavaScript. The site has been replaced by the current one.",
       image: "portfolio.jpg",
-      link: "https://mathiasjorgensen.dk",
+      link: "https://old.mathiasjorgensen.dk/",
     },
   ]
   const data = useStaticQuery(graphql`
