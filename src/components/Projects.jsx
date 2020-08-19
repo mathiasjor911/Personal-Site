@@ -30,7 +30,6 @@ export default function Projects() {
       link: "https://mathiasjorgensen.dk",
     },
   ]
-
   const data = useStaticQuery(graphql`
     query Projects {
       allFile {
@@ -47,13 +46,13 @@ export default function Projects() {
       }
     }
   `)
-  return projectData.map(({ title, type, description, image, link }) => {
+  return projectData.map(({ title, type, description, image, link, index }) => {
     const img = data.allFile.edges.find(
       ({ node }) => node.relativePath === image
     ).node
 
     return (
-      <div className={style.project}>
+      <div key={index} className={style.project}>
         <div className={style.projectimg}>
           <a href={link}>
             <Image fluid={img.childImageSharp.fluid} alt={title} />
