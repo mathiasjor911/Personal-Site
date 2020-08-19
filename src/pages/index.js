@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../components/Layout"
 import "../styles/index.scss"
-import Project from "../components/Projects"
+import Projects from "../components/Projects"
 import Seo from "../components/Seo"
 
 export default function Home() {
@@ -34,7 +34,7 @@ export default function Home() {
       <section className="projects">
         <h2>Selected Work</h2>
         <div className="projects-container">
-          <Project />
+          <Projects />
         </div>
       </section>
     </Layout>

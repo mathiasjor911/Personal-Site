@@ -3,8 +3,7 @@ import { Link } from "gatsby"
 import style from "./styles/navbar.module.scss"
 import { GitHub, Instagram, Linkedin } from "react-feather"
 
-
-const Navbar = () => {
+export default function Navbar() {
   return (
     <div className={style.navbar}>
       <nav>
@@ -14,7 +13,11 @@ const Navbar = () => {
         <Link activeStyle={{ color: "#546DE5" }} to="/about">
           About
         </Link>
-        <a rel="noreferrer" target="_blank" href="https://drive.google.com/file/d/1hiWLbG5dF0qNorUG9NSe9A5zjdxKi6ca/view?usp=sharing">
+        <a
+          rel="noreferrer"
+          target="_blank"
+          href="https://drive.google.com/file/d/1hiWLbG5dF0qNorUG9NSe9A5zjdxKi6ca/view?usp=sharing"
+        >
           Resume
         </a>
       </nav>
@@ -44,4 +47,3 @@ const Navbar = () => {
     </div>
   )
 }
-export default Navbar

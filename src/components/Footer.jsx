@@ -1,5 +1,6 @@
 import React, { Fragment } from "react"
 import style from "./styles/footer.module.scss"
+import moment from "moment"
 
 export default function Footer() {
   return (
@@ -20,7 +21,7 @@ export default function Footer() {
         </div>
       </footer>
       <div className={style.copyright}>
-        Copyright © {new Date().getFullYear()} - Mathias Jørgensen{" "}
+        Copyright © {moment().year()} - Mathias Jørgensen{" "}
         <span className={style.seperator}></span> Built with React and Gatsby
       </div>
     </Fragment>

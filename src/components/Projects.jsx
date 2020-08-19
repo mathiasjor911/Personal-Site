@@ -1,10 +1,10 @@
 import React from "react"
 import style from "./styles/project.module.scss"
 import { useStaticQuery, graphql } from "gatsby"
-import { Image } from "gatsby-image"
+import Image from "gatsby-image"
 
 export default function Projects() {
-  const projects = [
+  const projectData = [
     {
       title: "Massweb.",
       type: "School Project",
@@ -47,7 +47,7 @@ export default function Projects() {
       }
     }
   `)
-  return projects.map(({ title, type, description, image, link }) => {
+  return projectData.map(({ title, type, description, image, link }) => {
     const img = data.allFile.edges.find(
       ({ node }) => node.relativePath === image
     ).node
