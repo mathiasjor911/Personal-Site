@@ -17,8 +17,6 @@ export default function Sidebar() {
     }
   `)
 
-  console.log("data", data)
-
   return (
     <div className={styles.sidebar}>
       <div className={styles.pb}>
