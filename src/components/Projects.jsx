@@ -1,7 +1,7 @@
 import React from "react"
 import style from "./styles/project.module.scss"
 import { useStaticQuery, graphql } from "gatsby"
-import Image from "gatsby-image"
+import { Image } from "gatsby-image"
 
 export default function Projects() {
   const projects = [
