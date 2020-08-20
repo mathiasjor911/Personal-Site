@@ -7,10 +7,17 @@
     justify-content: space-between;
     padding: 64px 0;
 
+    .logo {
+        font-size: 22px;
+        font-weight: 800;
+        margin-right: 32px;
+        color: $light-grey;
+    }
+
     a {
         text-decoration: none;
         color: $light-grey;
-        font-weight: 300;
+        font-weight: 400;
         padding-right: 24px;
     }
 

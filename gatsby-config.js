@@ -28,18 +28,19 @@ module.exports = {
       options: {
         host: "https://www.example.com",
         sitemap: "https://www.example.com/sitemap.xml",
-        policy: [{ userAgent: "*", allow: "/" }],
+        policy: [{
+          userAgent: "*",
+          allow: "/"
+        }],
       },
     },
     {
       resolve: `gatsby-plugin-prefetch-google-fonts`,
       options: {
-        fonts: [
-          {
-            family: `Mukta`,
-            variants: [`300`, `400`, `500`, `600`],
-          },
-        ],
+        fonts: [{
+          family: `Mukta`,
+          variants: [`300`, `400`, `500`, `600`, `800`],
+        }, ],
       },
     },
     {
