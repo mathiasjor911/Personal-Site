@@ -17,11 +17,11 @@ export default function About() {
             My name is Mathias Jørgensen and I’m currently{" "}
             {moment().diff("11-Sep-1998", "years")} years old.
             <br /> <br />
-            I'm currently studying Web Development at Københavns Erhvervsakdemi
-            (KEA).
+            I'm currently studying Web Development at KEA in Copenhagen.
             <br />
-            <br />I am a young and aspiring front-end developer, who strives to
-            learn more everyday. Right now I'm very interested in React and the
+            <br />
+            I'm a young and aspiring front-end developer, who strives to learn
+            more everyday. Right now I'm very interested in React and the
             JAMstack way of buidling websites.
             <br />
             <br />
@@ -31,7 +31,7 @@ export default function About() {
             <br />
             <br />
             In my spare time I like to hang out with friends and shoot 35mm
-            photos
+            photos.
           </p>
           <div className="interrests">
             <h3>Interrests</h3>
