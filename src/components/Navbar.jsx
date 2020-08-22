@@ -7,7 +7,9 @@ export default function Navbar() {
   return (
     <div className={style.navbar}>
       <nav>
-        <span className={style.logo}>mj</span>
+        <Link to="/">
+          <span className={style.logo}>mj</span>
+        </Link>
         <Link activeStyle={{ color: "#546DE5" }} to="/">
           Home
         </Link>
