@@ -1,69 +1,70 @@
 @import "../styles/colors";
 
+h1,
+h2,
+h3 {
+  font-weight: 600;
+}
+
 .aboutgrid {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    column-gap: 96px;
-    margin-bottom: 160px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  column-gap: 96px;
+  margin-bottom: 160px;
 
-    @media screen and(max-width: 768px) {
-        grid-template-columns: 1fr;
+  @media screen and(max-width: 768px) {
+    grid-template-columns: 1fr;
 
-        .spotify-data {
-            display: none;
-        }
+    .spotify-data {
+      display: none;
+    }
+  }
 
+  .about-content {
+    h1 {
+      margin-bottom: 0;
     }
 
-    .about-content {
+    p {
+      max-width: 620px;
+    }
 
-        h1 {
-            margin-bottom: 0;
-        }
+    .interrests {
+      h3 {
+        font-size: 18px;
+        margin-top: 48px;
+        margin-bottom: 8px;
+      }
+
+      p {
+        margin-top: 0px;
+      }
+    }
+
+    .skill-section {
+      h3 {
+        margin-top: 48px;
+        margin-bottom: 8px;
+      }
+
+      .skills {
+        display: grid;
+        gap: 16px 16px;
+        grid-template-columns: repeat(3, 160px);
 
         p {
-            max-width: 620px;
+          margin: 0;
+          font-weight: 500;
         }
 
-        .interrests {
-            h3 {
-                font-size: 18px;
-                margin-top: 48px;
-                margin-bottom: 8px;
-            }
-
-            p {
-                margin-top: 0px;
-            }
+        span {
+          color: $smoke-grey;
         }
-
-        .skill-section {
-            h3 {
-                margin-top: 48px;
-                margin-bottom: 8px;
-            }
-
-            .skills {
-                display: grid;
-                gap: 16px 16px;
-                grid-template-columns: repeat(3, 160px);
-
-                p {
-                    margin: 0;
-                    font-weight: 500;
-                }
-
-                span {
-                    color: $smoke-grey;
-                }
-            }
-        }
-
-        .educations {
-            margin: 56px 0;
-
-        }
+      }
     }
 
-
+    .educations {
+      margin: 56px 0;
+    }
+  }
 }
