@@ -14,7 +14,7 @@ export default function About() {
       <div className="aboutgrid">
         <div className="about-content">
           <p>
-            My name is Mathias Jørgensen and I’m currently{" "}
+            My name is Mathias Jørgensen and I’m{" "}
             {moment().diff("11-Sep-1998", "years")} years old.
             <br /> <br />
             I'm currently studying Web Development at KEA in Copenhagen.
