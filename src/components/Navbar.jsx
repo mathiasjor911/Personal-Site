@@ -35,13 +35,6 @@ export default function Navbar() {
         <a
           rel="noreferrer"
           target="_blank"
-          href="https://www.instagram.com/mathias.jor/"
-        >
-          <Instagram strokeWidth="1.5" size="20" />
-        </a>
-        <a
-          rel="noreferrer"
-          target="_blank"
           href="https://www.linkedin.com/in/mathias-j%C3%B8rgensen-595876152/"
         >
           <Linkedin strokeWidth="1.5" size="20" />
