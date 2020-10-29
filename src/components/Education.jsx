@@ -10,7 +10,7 @@ export default function Education() {
     },
     {
       time: "2018 - 2020",
-      title: "AP degree in Web Development",
+      title: "AP degree in Multimedia Design",
       place: "Zealand, Slagelse",
     },
     {
