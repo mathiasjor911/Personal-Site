@@ -34,7 +34,7 @@ export default function About() {
             photos.
           </p>
           <div className="interrests">
-            <h3>Interrests</h3>
+            <h3>Interests</h3>
             <p>
               <span role="img" aria-label="Mountain bike">
                 🚵‍♂️
