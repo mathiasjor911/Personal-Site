@@ -14,7 +14,7 @@ export default function Footer() {
         <div className={style.footerInfo}>
           <h3>Connect with me</h3>
           <a href="https://github.com/mathiasjor911">GitHub</a>
-          <a href="https://www.instagram.com/mathias.jor/">
+          <a href="https://www.linkedin.com/in/mathias-j%C3%B8rgensen-595876152/">
             LinkedIn
           </a>
           <a href="https://www.instagram.com/mathias.jor/">Instagram</a>
