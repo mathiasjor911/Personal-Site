@@ -24,9 +24,9 @@ export default function Home() {
           in Copenhagen.
         </h2>
         <h2>
-          Former front-end developer intern at{" "}
-          <a href="https://nuuday.dk/" style={{ color: "#6E6EFF" }}>
-            Nuuday
+          Student Assistant at {" "}
+          <a href="https://www.synergi1.dk/" style={{ color: "#b1ba3d" }}>
+            Synergi
           </a>
           .
         </h2>
