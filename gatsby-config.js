@@ -28,19 +28,21 @@ module.exports = {
       options: {
         host: "https://www.example.com",
         sitemap: "https://www.example.com/sitemap.xml",
-        policy: [{
-          userAgent: "*",
-          allow: "/"
-        }],
+        policy: [
+          {
+            userAgent: "*",
+            allow: "/",
+          },
+        ],
       },
     },
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: `gatsby-plugin-google-fonts`,
       options: {
-        fonts: [{
-          family: `Mukta`,
-          variants: [`300`, `400`, `500`, `600`, `800`],
-        }, ],
+        fonts: [
+          `mukta\:300,400,500,600,800`, // you can also specify font weights and styles
+        ],
+        display: "swap",
       },
     },
     {
