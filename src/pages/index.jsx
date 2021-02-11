@@ -17,7 +17,7 @@ export default function Home() {
         </h1>
 
         <h2>
-          Currently studying Web Development at{" "}
+          Studying Web Development at{" "}
           <a href="https://kea.dk" style={{ color: "#EA5045" }}>
             KEA
           </a>{" "}
