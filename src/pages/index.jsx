@@ -18,14 +18,14 @@ export default function Home() {
 
         <h2>
           Studying Web Development at{" "}
-          <a href="https://kea.dk" style={{ color: "#EA5045" }}>
-            KEA
+          <a href="https://www.zealand.dk/" style={{ color: "#546de5" }}>
+            Zealand
           </a>{" "}
-          in Copenhagen.
+          in Roskilde.
         </h2>
         <h2>
           Student Assistant at {" "}
-          <a href="https://www.synergi1.dk/" style={{ color: "#b1ba3d" }}>
+          <a href="https://www.synergi1.dk/" style={{ color: "#546de5" }}>
             Synergi
           </a>
           .

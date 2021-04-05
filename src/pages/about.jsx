@@ -17,7 +17,7 @@ export default function About() {
             My name is Mathias Jørgensen and I’m{" "}
             {moment().diff("11-Sep-1998", "years")} years old.
             <br /> <br />
-            I'm currently studying Web Development at KEA in Copenhagen.
+            I'm currently studying Web Development at Zealand in Roskilde.
             <br />
             <br />
             I'm a young and aspiring front-end developer, who strives to learn

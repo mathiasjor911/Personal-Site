@@ -6,7 +6,7 @@ export default function Education() {
     {
       time: "Currently",
       title: "BA in Web Development",
-      place: "KEA, Copenhagen",
+      place: "Zealand, Roskilde",
     },
     {
       time: "2018 - 2020",
