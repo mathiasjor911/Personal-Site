@@ -9,7 +9,7 @@ export default function Projects() {
       title: "PHP Webshop.",
       type: "School Project",
       description:
-        "Webshop made with PHP and MySQL. The login allows the user to create,edit and delete products from an admin panel.",
+        "Webshop made with PHP and MySQL. The login allows the user to create, edit and delete products from an admin panel.",
       image: "webshop.jpg",
       link: "http://dev.mathiasjorgensen.dk/phpwebshop/index.php",
     },
