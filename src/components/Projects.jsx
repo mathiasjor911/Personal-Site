@@ -6,12 +6,12 @@ import Image from "gatsby-image"
 export default function Projects() {
   const projectData = [
     {
-      title: "Massweb.",
+      title: "PHP Webshop.",
       type: "School Project",
       description:
-        "Website for a fictional web agency as part of a school project. The site was created with HTML, CSS and jQuery",
-      image: "massweb.jpg",
-      link: "https://mmd.mathiasjorgensen.dk/opgave-5/",
+        "Webshop made with PHP and MySQL. The login allows the user to create and edit products from a admin panel.",
+      image: "webshop.jpg",
+      link: "http://dev.mathiasjorgensen.dk/phpwebshop/index.php",
     },
     {
       title: "JMM Group",
