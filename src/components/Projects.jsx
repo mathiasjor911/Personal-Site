@@ -6,7 +6,7 @@ import Image from "gatsby-image"
 export default function Projects() {
   const projectData = [
     {
-      title: "PHP Webshop.",
+      title: "PHP Webshop",
       type: "School Project",
       description:
         "Webshop made with PHP and MySQL. The login allows the user to create, edit and delete products from an admin panel.",
